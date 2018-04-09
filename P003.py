@@ -2,7 +2,9 @@ import math
 def isprime(i):
    assert isinstance(i,int)
    sqrt = int(math.sqrt(i))
-   if i%2==0:
+   if num==2:
+      return True
+   elif i%2==0:
       return False
    else:
       for n in range(3, sqrt+1, 2):
